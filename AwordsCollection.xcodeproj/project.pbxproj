@@ -17,6 +17,10 @@
 		0CEC6C83279FFC55005CD54F /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C82279FFC55005CD54F /* CurvesView.swift */; };
 		0CEC6C8527A1420E005CD54F /* MyBitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C8427A1420E005CD54F /* MyBitView.swift */; };
 		0CEC6C8727A1434D005CD54F /* HexStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C8627A1434D005CD54F /* HexStarView.swift */; };
+		0CEC6C8927A14953005CD54F /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C8827A14953005CD54F /* CustomGridView.swift */; };
+		0CEC6C8B27A15899005CD54F /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C8A27A15899005CD54F /* Award.swift */; };
+		0CEC6C8D27A15CEA005CD54F /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C8C27A15CEA005CD54F /* VerticalGridView.swift */; };
+		0CEC6C8F27A16068005CD54F /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC6C8E27A16068005CD54F /* HorizontalGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		0CEC6C82279FFC55005CD54F /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		0CEC6C8427A1420E005CD54F /* MyBitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBitView.swift; sourceTree = "<group>"; };
 		0CEC6C8627A1434D005CD54F /* HexStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStarView.swift; sourceTree = "<group>"; };
+		0CEC6C8827A14953005CD54F /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		0CEC6C8A27A15899005CD54F /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		0CEC6C8C27A15CEA005CD54F /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		0CEC6C8E27A16068005CD54F /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,10 @@
 				0CEC6C8427A1420E005CD54F /* MyBitView.swift */,
 				0C724AFE279FD772009F8B79 /* Assets.xcassets */,
 				0C724B00279FD772009F8B79 /* Preview Content */,
+				0CEC6C8827A14953005CD54F /* CustomGridView.swift */,
+				0CEC6C8A27A15899005CD54F /* Award.swift */,
+				0CEC6C8C27A15CEA005CD54F /* VerticalGridView.swift */,
+				0CEC6C8E27A16068005CD54F /* HorizontalGridView.swift */,
 			);
 			path = AwordsCollection;
 			sourceTree = "<group>";
@@ -155,13 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEC6C8927A14953005CD54F /* CustomGridView.swift in Sources */,
 				0CEC6C83279FFC55005CD54F /* CurvesView.swift in Sources */,
 				0CEC6C81279FF5AF005CD54F /* PathView.swift in Sources */,
+				0CEC6C8B27A15899005CD54F /* Award.swift in Sources */,
 				0C724AFD279FD767009F8B79 /* ContentView.swift in Sources */,
+				0CEC6C8D27A15CEA005CD54F /* VerticalGridView.swift in Sources */,
 				0C724B0B279FD8D5009F8B79 /* GradientRectangles.swift in Sources */,
 				0CEC6C7F279FE640005CD54F /* ShapesView.swift in Sources */,
 				0C724AFB279FD767009F8B79 /* AwordsCollectionApp.swift in Sources */,
 				0CEC6C8727A1434D005CD54F /* HexStarView.swift in Sources */,
+				0CEC6C8F27A16068005CD54F /* HorizontalGridView.swift in Sources */,
 				0CEC6C8527A1420E005CD54F /* MyBitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
